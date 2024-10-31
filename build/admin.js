@@ -1,0 +1,1 @@
+(()=>{"use strict";document.addEventListener("click",(function(e){const t=e.target;if(t.classList.contains("editinline")){const e=t.closest("tr"),c=e?.id;if(c){const e=!!document.getElementById(c)?.querySelector("[data-schedule-terms-active]");document.querySelector(".inline-edit-row input[name=term-schedule_terms_active]").checked=e}}}))})();
